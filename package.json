@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
+    "git": "^0.1.5",
     "html-loader": "^4.2.0",
     "url-loader": "^4.1.1"
   }
