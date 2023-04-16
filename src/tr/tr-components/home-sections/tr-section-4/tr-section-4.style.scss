@@ -1,0 +1,28 @@
+.home-section-4 {
+  padding: 140px 40px;
+
+  background-color: #000;
+}
+.home-section-4-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.home-section-4-i {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  transition: all 1s;
+  img {
+    width: 306px;
+    height: 249px;
+  }
+  .home-section-4-i {
+  }
+}
+.home-section-4-i:hover {
+  transform: scale(1.3);
+  cursor: url(../../../../assets/plus.svg), nesw-resize;
+}

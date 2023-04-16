@@ -1,0 +1,194 @@
+.digital-dentistry {
+  padding: 0px 100px 100px;
+  border-left: 4px solid #ba9e66;
+  .digital-dentistry-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .digital-dentistry-header {
+      // font-size: 38px;
+      padding: 100px 50px 20px;
+      font-size: 54px;
+      font-weight: 400;
+      span {
+        color: #ba9e66;
+      }
+    }
+    .digital-dentistry-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      // border-left: 2px solid #ba9e66;
+      // border-right: 2px solid #ba9e66;
+      .digital-dentistry-desc {
+        padding: 30px 100px;
+        border-bottom: 2px solid #ba9e66;
+        .digital-dentistry-description {
+          // font-family: "Proza Libre", sans-serif;
+
+          font-size: 18px;
+          line-height: 2;
+          letter-spacing: 0.5px;
+          font-weight: 400;
+          // color: rgb(61, 61, 60);
+          color: #2d2d2d;
+        }
+        h2 {
+          text-align: center;
+          position: relative;
+        }
+        h2::after {
+          content: " ";
+          height: 2px;
+          width: 14%;
+          background: #000;
+          display: block;
+          position: absolute;
+          top: 50%;
+          right: 0;
+        }
+        h2::before {
+          content: " ";
+          height: 2px;
+          width: 14%;
+          background: #000;
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: 0;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1366px) {
+  .digital-dentistry {
+    padding: 0 80px 80px;
+    .digital-dentistry-wrap {
+      .digital-dentistry-header {
+        padding: 80px 40px 10px !important;
+        font-size: 48px !important;
+      }
+      .digital-dentistry-container {
+        .digital-dentistry-desc {
+          padding: 20px 80px !important;
+          .digital-dentistry-description {
+            font-size: 16px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .digital-dentistry {
+    padding: 0 80px 80px;
+    .digital-dentistry-wrap {
+      .digital-dentistry-header {
+        padding: 80px 40px 10px !important;
+        font-size: 48px !important;
+      }
+      .digital-dentistry-container {
+        .digital-dentistry-desc {
+          padding: 20px 80px !important;
+          .digital-dentistry-description {
+            font-size: 16px !important;
+          }
+          h2 {
+            // font-size: 18px !important;
+          }
+          h2::after {
+            width: 4% !important;
+          }
+          h2::before {
+            width: 4% !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 944px) {
+  .digital-dentistry {
+    padding: 0 60px 60px;
+    .digital-dentistry-wrap {
+      .digital-dentistry-header {
+        padding: 60px 20px 10px !important;
+        font-size: 36px !important;
+      }
+      .digital-dentistry-container {
+        .digital-dentistry-desc {
+          padding: 20px 60px !important;
+          .digital-dentistry-description {
+            font-size: 14px !important;
+          }
+          h2 {
+            font-size: 18px !important;
+          }
+          h2::after {
+            width: 4% !important;
+          }
+          h2::before {
+            width: 4% !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 704px) {
+  .digital-dentistry {
+    padding: 0 60px 60px;
+    .digital-dentistry-wrap {
+      .digital-dentistry-header {
+        padding: 60px 20px 10px !important;
+        font-size: 28px !important;
+      }
+      .digital-dentistry-container {
+        .digital-dentistry-desc {
+          padding: 20px 60px !important;
+          .digital-dentistry-description {
+            font-size: 12px !important;
+          }
+          h2 {
+            font-size: 14px !important;
+          }
+          h2::after {
+            width: 4% !important;
+          }
+          h2::before {
+            width: 4% !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 560px) {
+  .digital-dentistry {
+    padding: 0px 40px !important;
+    .digital-dentistry-wrap {
+      .digital-dentistry-header {
+        padding: 40px 0px 10px !important;
+        font-size: 22px !important;
+      }
+      .digital-dentistry-container {
+        .digital-dentistry-desc {
+          padding: 20px 20px !important;
+          .digital-dentistry-description {
+            font-size: 12px !important;
+          }
+          h2 {
+            font-size: 14px !important;
+          }
+          h2::after {
+            width: 4% !important;
+          }
+          h2::before {
+            width: 4% !important;
+          }
+        }
+      }
+    }
+  }
+}

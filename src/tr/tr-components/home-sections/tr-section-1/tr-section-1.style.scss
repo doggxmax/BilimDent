@@ -1,0 +1,86 @@
+.need {
+}
+.tr-home-section-1 {
+  padding: 40px 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-evenly;
+}
+.tr-home-container {
+  margin-left: 50px;
+}
+.tr-home-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 50px;
+  .tr-home-header-slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-color: #000;
+    color: #000;
+    line-height: 1;
+    padding: 40px;
+    .tr-home-header-name {
+      font-size: 48px;
+      span {
+      }
+    }
+    .tr {
+      border-right: none;
+    }
+    .tr-home-header-name-2 {
+      letter-spacing: 1px;
+      color: #000;
+      font-weight: 500;
+      font-size: 32px;
+    }
+    .tr-home-header-name-3 {
+      letter-spacing: 1px;
+      color: #000;
+      font-weight: 400;
+      padding: 12px;
+      font-size: 16px;
+    }
+  }
+  .tr-home-header-small {
+    font-size: 22px;
+    font-weight: 400;
+  }
+}
+.tr-home-button {
+  cursor: pointer;
+  font-size: 24px;
+  transition: all 1s;
+  transform-origin: top;
+  background: #ba9e66;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  padding: 20px 60px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+// .tr-home-button:hover {
+//   background-color: #000;
+// }
+.tr-home-button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: center bottom;
+  background: #000;
+  z-index: -1;
+  transition: transform 0.3s;
+}
+
+.tr-home-button:hover::after {
+  transform: scaleY(1);
+}

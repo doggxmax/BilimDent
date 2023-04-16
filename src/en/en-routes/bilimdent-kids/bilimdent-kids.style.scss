@@ -1,0 +1,218 @@
+.bilimdent-kids {
+  padding: 100px;
+}
+.bilim-dent-kids-header {
+  margin-bottom: 40px;
+  font-size: 54px;
+  text-align: center;
+  font-weight: 500;
+
+  span {
+    color: #ba9e66;
+  }
+}
+.bilimdent-kids-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.bilimdent-kids-inner {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  align-items: center;
+  border: 1px solid #000;
+  transition: all 0.5s;
+}
+.bilimdent-kids-icon {
+}
+.bilimdent-kids-desc {
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    color: #777777;
+    font-family: "Proza Libre", sans-serif;
+
+    line-height: 1.8;
+  }
+}
+.bilimdent-kids-outer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  .bilimdent-kids-outer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    .bilimdent-kids-outer-head {
+      font-size: 24px;
+    }
+    .bilimdent-kids-outer-description {
+      margin-left: 20px;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 400;
+      gap: 10px;
+      font-family: "Proza Libre", sans-serif;
+
+      letter-spacing: -0.1px;
+    }
+  }
+  .bilimdent-kids-outer-desc {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #777;
+    font-family: "Proza Libre", sans-serif;
+  }
+}
+@media (max-width: 1366px) {
+  .bilimdent-kids {
+    padding: 80px !important;
+  }
+  .bilim-dent-kids-header {
+    font-size: 48px !important;
+  }
+  .bilimdent-kids-inner {
+    padding: 20px 40px !important;
+  }
+  .bilimdent-kids-desc {
+    h3 {
+      font-size: 22px !important;
+    }
+  }
+  .bilimdent-kids-outer-head {
+    font-size: 22px !important;
+  }
+  .bilimdent-kids-outer-description {
+    font-size: 16px !important;
+  }
+  .bilimdent-kids-outer-desc {
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .bilimdent-kids {
+    padding: 60px !important;
+  }
+  .bilim-dent-kids-header {
+    font-size: 42px !important;
+  }
+  .bilimdent-kids-inner {
+    padding: 10px 20px !important;
+  }
+  .bilimdent-kids-desc {
+    h3 {
+      font-size: 18px !important;
+    }
+    p {
+      font-size: 14px !important;
+    }
+  }
+  .bilimdent-kids-outer-head {
+    font-size: 18px !important;
+  }
+  .bilimdent-kids-outer-description {
+    font-size: 14px !important;
+  }
+  .bilimdent-kids-outer-desc {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 944px) {
+  .bilimdent-kids {
+    padding: 40px !important;
+  }
+  .bilim-dent-kids-header {
+    font-size: 36px !important;
+  }
+  .bilimdent-kids-inner {
+    padding: 10px 20px !important;
+  }
+  .bilimdent-kids-desc {
+    h3 {
+      font-size: 16px !important;
+    }
+    p {
+      font-size: 12px !important;
+    }
+  }
+  .bilimdent-kids-outer-head {
+    font-size: 16px !important;
+  }
+  .bilimdent-kids-outer-description {
+    font-size: 12px !important;
+  }
+  .bilimdent-kids-outer-desc {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 704px) {
+  .bilimdent-kids {
+    padding: 40px !important;
+  }
+  .bilim-dent-kids-header {
+    font-size: 28px !important;
+  }
+  .bilimdent-kids-inner {
+    padding: 10px 20px !important;
+  }
+  .bilimdent-kids-desc {
+    h3 {
+      font-size: 12x !important;
+    }
+    p {
+      font-size: 10px !important;
+    }
+  }
+  .bilimdent-kids-outer-head {
+    font-size: 14px !important;
+  }
+  .bilimdent-kids-outer-container {
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  .bilimdent-kids-outer-description {
+    font-size: 10px !important;
+  }
+  .bilimdent-kids-outer-desc {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 560px) {
+  .bilimdent-kids {
+    padding: 40px !important;
+  }
+  .bilim-dent-kids-header {
+    font-size: 28px !important;
+  }
+  .bilimdent-kids-inner {
+    padding: 10px 20px !important;
+  }
+  .bilimdent-kids-desc {
+    h3 {
+      font-size: 12x !important;
+    }
+    p {
+      font-size: 10px !important;
+    }
+  }
+  .bilimdent-kids-outer-head {
+    font-size: 14px !important;
+  }
+  .bilimdent-kids-outer-container {
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  .bilimdent-kids-outer-description {
+    font-size: 10px !important;
+  }
+  .bilimdent-kids-outer-desc {
+    font-size: 10px !important;
+  }
+}

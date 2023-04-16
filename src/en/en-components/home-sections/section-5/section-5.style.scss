@@ -1,0 +1,203 @@
+.home-section-5-wrap {
+  padding: 140px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home-section-5-container {
+  display: flex;
+  flex-direction: column;
+  .home-section-5-header {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    .home-section-5-heading {
+      display: flex;
+      font-size: 34px;
+      padding-left: 210px;
+      span {
+        font-weight: 600;
+        color: #ba9e66;
+      }
+    }
+  }
+}
+.home-section-5-smallh {
+  font-size: 54px;
+}
+.home-section-5-list {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  line-height: 1.5;
+  li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+}
+@media (max-width: 1366px) {
+  .home-section-5-wrap {
+    padding: 100px 30px !important;
+  }
+  .home-section-5-image-container {
+    img {
+      width: 600px !important;
+      height: 500px !important;
+    }
+  }
+  .home-section-5-container {
+    .home-section-5-header {
+      .home-section-5-heading {
+        font-size: 32px !important;
+        padding-left: 200px !important;
+      }
+    }
+  }
+  .home-section-5-smallh {
+    font-size: 48px;
+  }
+  .home-section-5-list {
+    font-size: 22px;
+    li {
+      gap: 14px !important;
+      svg {
+        height: 18px !important;
+        width: 18px !important;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .home-section-5-wrap {
+    padding: 80px 20px !important;
+  }
+  .home-section-5-image-container {
+    img {
+      width: 500px !important;
+      height: 400px !important;
+    }
+  }
+  .home-section-5-container {
+    .home-section-5-header {
+      .home-section-5-heading {
+        font-size: 28px !important;
+        padding-left: 180px !important;
+      }
+    }
+  }
+  .home-section-5-smallh {
+    font-size: 42px;
+  }
+  .home-section-5-list {
+    font-size: 20px;
+    li {
+      gap: 14px !important;
+      svg {
+        height: 18px !important;
+        width: 18px !important;
+      }
+    }
+  }
+}
+@media (max-width: 944px) {
+  .home-section-5-wrap {
+    padding: 60px 10px !important;
+  }
+  .home-section-5-image-container {
+    img {
+      width: 400px !important;
+      height: 300px !important;
+    }
+  }
+  .home-section-5-container {
+    .home-section-5-header {
+      .home-section-5-heading {
+        font-size: 22px !important;
+        padding-left: 160px !important;
+      }
+    }
+  }
+  .home-section-5-smallh {
+    font-size: 36px;
+  }
+  .home-section-5-list {
+    font-size: 18px;
+    li {
+      gap: 14px !important;
+      svg {
+        height: 14px !important;
+        width: 14px !important;
+      }
+    }
+  }
+}
+@media (max-width: 704px) {
+  .home-section-5-wrap {
+    padding: 60px 20px !important;
+  }
+  .home-section-5-image-container {
+    img {
+      width: 280px !important;
+      height: 200px !important;
+    }
+  }
+  .home-section-5-container {
+    margin-right: 20px;
+    .home-section-5-header {
+      .home-section-5-heading {
+        font-size: 18px !important;
+        padding-left: 160px !important;
+      }
+    }
+  }
+  .home-section-5-smallh {
+    font-size: 28px;
+  }
+  .home-section-5-list {
+    font-size: 14px;
+    li {
+      gap: 14px !important;
+      svg {
+        height: 12px !important;
+        width: 12px !important;
+      }
+    }
+  }
+}
+@media (max-width: 560px) {
+  .home-section-5-wrap {
+    padding: 60px 20px !important;
+  }
+  .home-section-5-image-container {
+    display: none;
+    img {
+      width: 280px !important;
+      height: 200px !important;
+    }
+  }
+  .home-section-5-container {
+    margin-right: 20px;
+    .home-section-5-header {
+      .home-section-5-heading {
+        font-size: 18px !important;
+        padding-left: 160px !important;
+      }
+    }
+  }
+  .home-section-5-smallh {
+    font-size: 28px;
+  }
+  .home-section-5-list {
+    font-size: 14px;
+    li {
+      gap: 14px !important;
+      svg {
+        height: 12px !important;
+        width: 12px !important;
+      }
+    }
+  }
+}

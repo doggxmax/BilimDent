@@ -1,0 +1,10 @@
+.tr-homeicons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  li {
+    cursor: pointer;
+    list-style-type: none;
+  }
+}

@@ -1,0 +1,37 @@
+.blog-antalya {
+  padding: 0 100px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  .blog-antalya-heading {
+    font-size: 34px;
+  }
+  .blog-antalya-container {
+    display: flex;
+    gap: 80px;
+    .blog-antalya-image-container {
+    }
+    .blog-antalya-description-container {
+      display: flex;
+      flex-direction: column;
+      .blog-antalya-description {
+        h2 {
+          font-size: 34px;
+          color: #ba9e66;
+        }
+        p {
+          font-family: "Proza Libre", sans-serif;
+          line-height: 1.8;
+          color: #777;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .blog-antalya-image-con {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+}

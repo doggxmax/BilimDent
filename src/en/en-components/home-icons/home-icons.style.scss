@@ -1,0 +1,31 @@
+.homeicons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  li {
+    cursor: pointer;
+    list-style-type: none;
+  }
+}
+@media (max-width: 1200px) {
+  a {
+    li {
+      svg {
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
+}
+@media (max-width: 944px) {
+  a {
+    li {
+      svg {
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,198 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  background-color: #000;
+  padding: 30px;
+}
+.nav-logo {
+  width: 90px;
+  height: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../../assets/Varlik-4.png);
+}
+.nav-links {
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+  // position: relative;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.nav-link {
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  transition: color 0.4s;
+}
+a {
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #ba9e66;
+}
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+@media (max-width: 1360px) {
+  .nav-logo {
+    width: 70px !important;
+    height: 60px !important;
+    // background-image: url(../../../assets/logo_944.png);
+  }
+  .nav {
+    gap: 70px !important;
+    padding: 24px !important;
+  }
+  .nav-links {
+    gap: 34px !important;
+  }
+  .nav-link {
+    font-size: 23px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .nav {
+    gap: 50px !important;
+    padding: 16px !important;
+  }
+  .nav-links {
+    gap: 24px !important;
+  }
+  .nav-link {
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 944px) {
+  .nav-logo {
+    width: 60px !important;
+    height: 54px !important;
+    background-image: url(../../../assets/logo_944.png);
+  }
+  .nav {
+    gap: 30px !important;
+    padding: 12px !important;
+    // position: relative;
+    overflow-x: hidden !important;
+  }
+  .nav-links {
+    gap: 18px !important;
+  }
+  .nav-link {
+    font-size: 14px !important;
+  }
+  .btn-mobile-nav {
+    z-index: 20;
+    display: block;
+    .icon-mobile-nav {
+      color: #ba9e66;
+      width: 39px;
+      height: 39px;
+    }
+  }
+  .main-nav {
+    // background-color: rgba(255, 255, 255, 0.906);
+    background-color: rgba(186, 158, 102, 0.922);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation */
+    /* Allows NO transitions at all */
+    /* display: none; */
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+  .nav {
+    padding: 20px 80px !important;
+    justify-content: space-between;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+    z-index: 20;
+  }
+  .nav-open .icon-mobile-nav {
+    color: #fff;
+  }
+  .nav-open .tr {
+    color: #000 !important;
+  }
+  .nav-links {
+    display: flex;
+    // background-color: #000;
+    padding: 0px 40px 0px !important;
+    flex-direction: column;
+    align-items: center;
+    .nav-link {
+      color: #fff;
+      font-size: 32px !important;
+    }
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+}
+
+@media (max-width: 704px) {
+  .nav-logo {
+    width: 48px !important;
+    height: 40px !important;
+    background-image: url(../../../assets/logo_944.png);
+  }
+  .nav {
+    padding: 10px 60px !important;
+  }
+}
+@media (max-width: 560px) {
+  .nav-logo {
+    width: 42px !important;
+    height: 32px !important;
+    background-image: url(../../../assets/logo_944.png);
+  }
+  .nav {
+    padding: 10px 40px !important;
+  }
+}

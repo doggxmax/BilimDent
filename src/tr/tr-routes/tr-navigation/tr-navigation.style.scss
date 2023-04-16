@@ -1,0 +1,33 @@
+.tr-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  background-color: #000;
+  padding: 30px;
+  position: relative;
+}
+.tr-nav-links {
+  display: flex;
+  gap: 40px;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.tr-nav-link {
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  transition: color 0.4s;
+}
+
+a {
+  text-decoration: none;
+}
+.tr-nav-link:hover {
+  color: #ba9e66;
+}
+.tr-home-i {
+}

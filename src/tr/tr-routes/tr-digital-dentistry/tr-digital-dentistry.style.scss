@@ -1,0 +1,63 @@
+.tr-digital-dentistry {
+  padding: 0px 100px 100px;
+
+  border-left: 4px solid #ba9e66;
+  .tr-digital-dentistry-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .tr-digital-dentistry-header {
+      // font-size: 38px;
+      padding: 100px 50px 20px;
+      font-size: 54px;
+      font-weight: 400;
+      span {
+        color: #ba9e66;
+      }
+    }
+    .tr-digital-dentistry-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      // border-right: 2px solid #ba9e66;
+      .tr-digital-dentistry-desc {
+        padding: 30px 100px;
+        border-bottom: 2px solid #ba9e66;
+        .tr-digital-dentistry-description {
+          // font-family: "Proza Libre", sans-serif;
+
+          font-size: 18px;
+          line-height: 2;
+          letter-spacing: 0.5px;
+          font-weight: 400;
+          // color: rgb(61, 61, 60);
+          color: #2d2d2d;
+        }
+        h2 {
+          text-align: center;
+          position: relative;
+        }
+        h2::after {
+          content: " ";
+          height: 2px;
+          width: 14%;
+          background: #000;
+          display: block;
+          position: absolute;
+          top: 50%;
+          right: 0;
+        }
+        h2::before {
+          content: " ";
+          height: 2px;
+          width: 14%;
+          background: #000;
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: 0;
+        }
+      }
+    }
+  }
+}

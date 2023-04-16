@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.overlay {
+  width: 560px;
+  height: 315px;
+  position: absolute;
+  top: 10px;
+}
+.el {
+  position: relative;
+}

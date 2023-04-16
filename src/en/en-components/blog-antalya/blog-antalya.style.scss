@@ -1,0 +1,172 @@
+.blog-antalya {
+  padding: 0 100px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  .blog-antalya-header {
+    font-size: 54px;
+  }
+  .blog-antalya-container {
+    display: flex;
+    gap: 80px;
+    .blog-antalya-image-container {
+    }
+    .blog-antalya-description-container {
+      display: flex;
+      flex-direction: column;
+      .blog-antalya-description {
+        h2 {
+          font-size: 34px;
+          color: #ba9e66;
+        }
+        p {
+          font-family: "Proza Libre", sans-serif;
+          line-height: 1.8;
+          color: #777;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .blog-antalya-image-con {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+}
+@media (max-width: 1366px) {
+  .blog-antalya {
+    padding: 0 80px 80px !important;
+    gap: 38px !important;
+    .blog-antalya-header {
+      font-size: 48px !important;
+    }
+    .blog-antalya-description {
+      h2 {
+        font-size: 28px !important;
+      }
+      p {
+        font-size: 14px !important;
+      }
+    }
+    .blog-antalya-image {
+      img {
+        width: 500px !important;
+        height: 397px !important;
+      }
+    }
+    .blog-antalya-video-container {
+      iframe {
+        width: 560px;
+        height: 315px;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .blog-antalya {
+    padding: 0 80px 80px !important;
+    gap: 38px !important;
+    .blog-antalya-header {
+      font-size: 42px !important;
+    }
+    .blog-antalya-description {
+      h2 {
+        font-size: 24px !important;
+      }
+      p {
+        font-size: 12px !important;
+      }
+    }
+    .blog-antalya-image {
+      img {
+        width: 400px !important;
+        height: 297px !important;
+      }
+    }
+    .blog-antalya-video-container {
+      iframe {
+        width: 560px;
+        height: 315px;
+      }
+    }
+  }
+}
+@media (max-width: 944px) {
+  .blog-antalya {
+    padding: 0 80px 80px !important;
+    gap: 30px !important;
+    .blog-antalya-header {
+      font-size: 38px !important;
+    }
+    .blog-antalya-container {
+      display: flex;
+      flex-direction: column;
+      gap: 40px !important;
+    }
+    .blog-antalya-description {
+      h2 {
+        font-size: 22px !important;
+      }
+      p {
+        font-size: 12px !important;
+      }
+    }
+    .blog-antalya-image-con {
+      gap: 40px !important;
+    }
+    .blog-antalya-image {
+      text-align: center;
+      img {
+        width: 300px !important;
+        height: 197px !important;
+      }
+    }
+    .blog-antalya-video-container {
+      iframe {
+        width: 560px;
+        height: 315px;
+      }
+    }
+  }
+}
+@media (max-width: 704px) {
+  .blog-antalya {
+    padding: 0 80px 80px !important;
+    gap: 30px !important;
+    .blog-antalya-header {
+      font-size: 28px !important;
+    }
+    .blog-antalya-container {
+      // background-color: red;
+      display: flex;
+      flex-direction: column;
+      gap: 20px !important;
+    }
+    .blog-antalya-description {
+      h2 {
+        font-size: 18px !important;
+      }
+      p {
+        font-size: 12px !important;
+      }
+    }
+    .blog-antalya-image-con {
+      gap: 40px !important;
+    }
+    .blog-antalya-image {
+      text-align: center;
+      img {
+        width: 240px !important;
+        height: 170px !important;
+      }
+    }
+    .blog-antalya-video-container {
+      iframe {
+        width: 460px;
+        height: 300px;
+      }
+    }
+  }
+}

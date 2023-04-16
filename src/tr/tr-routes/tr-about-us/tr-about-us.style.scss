@@ -1,0 +1,242 @@
+.about-us {
+}
+.about-container-1 {
+  padding: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-us-gallery {
+  position: relative;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+.gallery-overlay {
+  position: absolute;
+  background-color: rgb(76, 76, 76, 0.5);
+  width: 1550px;
+  height: 800px;
+  top: -40%;
+  left: -10%;
+  z-index: 2;
+}
+.about-us-gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  img {
+    cursor: url(../../../assets/plus.svg), nesw-resize;
+    transition: all 0.9s;
+  }
+  img:hover {
+    transform: scale(1.2);
+  }
+}
+.about-header {
+  margin: 0;
+  padding: 80px;
+  font-weight: 500;
+
+  font-size: 54px;
+}
+.about-container-2 {
+  margin-top: 100px;
+  padding: 0px 100px;
+  padding-bottom: 100px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-us-team {
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  // background-color: red;
+}
+.about-team-wrap {
+  display: flex;
+  width: 520px;
+  flex-direction: column;
+  border: 1px solid #fff;
+  padding: 20px 60px;
+}
+.about-team-header {
+  font-size: 34px;
+}
+.about-team-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-team-row-1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  div {
+    text-align: left;
+  }
+}
+.about-team-row-2 {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  div {
+    text-align: left;
+  }
+}
+.about-team-row-3 {
+  display: flex;
+  padding-bottom: 40px;
+  align-items: center;
+  gap: 28px;
+  div {
+    text-align: left;
+  }
+}
+.about-container-3 {
+  display: flex;
+  padding: 0px 100px;
+  padding-bottom: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+.about-tech-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.about-tech-container {
+  display: grid;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  div:nth-child(2) {
+    color: #ba9e66;
+  }
+  div:nth-child(5) {
+    color: #ba9e66;
+  }
+  div:nth-child(7) {
+    color: #ba9e66;
+  }
+  div:nth-child(4) {
+    color: #ba9e66;
+  }
+}
+.about-tech-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  .tech-wrapper {
+  }
+}
+.tech-container {
+  display: flex;
+  padding: 10px 40px;
+  flex-direction: column;
+  gap: 0px;
+  div {
+    line-height: 1.8;
+    font-size: 16px;
+    color: #777777;
+    font-family: "Proza Libre", sans-serif;
+  }
+}
+.tech-container:nth-child(odd) {
+  // border-bottom: 2px solid #000;
+  border-right: 2px solid #ba9e66;
+}
+//////////////////////
+//////////////////////
+//////////////////////
+//////////////////////
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1074px;
+  // box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: all 0.5s;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+
+  .image-container {
+    width: 1000px;
+    height: 600px;
+    background-image: url("../../../assets//clinic-9.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.797);
+  backdrop-filter: blur(4px);
+  z-index: 100;
+  transition: all 0.5s;
+}
+
+.btn--close-modal {
+  font-family: inherit;
+  color: inherit;
+  position: absolute;
+  top: 3rem;
+  right: 1rem;
+  font-size: 4rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #fff;
+}
+.modal-btn-left {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    transform: rotate(180deg);
+  }
+}
+.modal-btn-right {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-num {
+  // background-color: red;
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  position: absolute;
+  top: 5.3rem;
+  left: 1rem;
+  font-size: 18px;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
