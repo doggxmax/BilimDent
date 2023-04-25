@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/BilimDent/static/css/main.3cbe4b48.css",
-    "main.js": "/BilimDent/static/js/main.533279b8.js",
+    "main.css": "/BilimDent/static/css/main.7d87d593.css",
+    "main.js": "/BilimDent/static/js/main.e1d17908.js",
     "static/js/787.4698678d.chunk.js": "/BilimDent/static/js/787.4698678d.chunk.js",
-    "static/media/home-section-5.jpg": "/BilimDent/static/media/home-section-5.10d76079be517e259666.jpg",
     "static/media/inlab-systems.jpg": "/BilimDent/static/media/inlab-systems.e547ac929762fd6d5236.jpg",
     "static/media/surgical-guid.jpg": "/BilimDent/static/media/surgical-guid.aee856f829807ee191da.jpg",
     "static/media/tooth-fracture.jpg": "/BilimDent/static/media/tooth-fracture.ab9003ac3b1e2bf29709.jpg",
@@ -14,13 +13,13 @@
     "static/media/tooth-decay.jpg": "/BilimDent/static/media/tooth-decay.5c58afd463194194da20.jpg",
     "static/media/pedadontics.jpg": "/BilimDent/static/media/pedadontics.7714660a500194dc1773.jpg",
     "static/media/laser-dentistry.jpg": "/BilimDent/static/media/laser-dentistry.9bc41b95fed8fdc3c352.jpg",
-    "static/media/digital-3d-imaging.jpg": "/BilimDent/static/media/digital-3d-imaging.3a3ee8472eea092d344c.jpg",
+    "static/media/digital-3d-imaging.jpg": "/BilimDent/static/media/digital-3d-imaging.b34c0f92d61e29e47106.jpg",
     "static/media/tooth-disclosing.jpg": "/BilimDent/static/media/tooth-disclosing.0cf9f8dc63d35179b963.jpg",
     "static/media/clear-aligners.jpg": "/BilimDent/static/media/clear-aligners.b956eeffb0d3be6fc1bc.jpg",
     "static/media/tooth-eruption.jpg": "/BilimDent/static/media/tooth-eruption.8e92fa0df1eeb3a0414b.jpg",
     "static/media/feasure-sealant.jpg": "/BilimDent/static/media/feasure-sealant.4ad3746f5e03fb76db7f.jpg",
-    "static/media/aslihan-altin-OqOD9YyDYSQ-unsplash.jpg": "/BilimDent/static/media/aslihan-altin-OqOD9YyDYSQ-unsplash.4bd2a21eac6393a3222b.jpg",
     "static/media/home-section-52.jpg": "/BilimDent/static/media/home-section-52.259b72fa53a228897818.jpg",
+    "static/media/home-section-5.jpg": "/BilimDent/static/media/home-section-5.0d133644263829a91cf7.jpg",
     "static/media/clinic-1.jpg": "/BilimDent/static/media/clinic-1.c801bad5ee14dfb27bd5.jpg",
     "static/media/tooth-treatments.jpg": "/BilimDent/static/media/tooth-treatments.84cefb24ca18e3e35f92.jpg",
     "static/media/clinic-7.jpg": "/BilimDent/static/media/clinic-7.c23babb8b32c3a6169f6.jpg",
@@ -29,6 +28,7 @@
     "static/media/clinic-5.jpg": "/BilimDent/static/media/clinic-5.ed39ab7609b25e5557df.jpg",
     "static/media/clinic-8.jpg": "/BilimDent/static/media/clinic-8.23f73491c5aa0be103c0.jpg",
     "static/media/art-lasovsky-8XddFc6NkBY-unsplash.jpg": "/BilimDent/static/media/art-lasovsky-8XddFc6NkBY-unsplash.93ce660284589f2aa0fd.jpg",
+    "static/media/aslihan-altin-OqOD9YyDYSQ-unsplash.jpg": "/BilimDent/static/media/aslihan-altin-OqOD9YyDYSQ-unsplash.94921b325426c8fcfeea.jpg",
     "static/media/clinic-4.jpg": "/BilimDent/static/media/clinic-4.b46307827f072d92665b.jpg",
     "static/media/gallery-5.jpg": "/BilimDent/static/media/gallery-5.a882833ed73fb368ccb2.jpg",
     "static/media/markantalya.jpg": "/BilimDent/static/media/markantalya.3231c7e8efe5298d1027.jpg",
@@ -45,9 +45,7 @@
     "static/media/gallery-6.jpg": "/BilimDent/static/media/gallery-6.255f5ba1d339f4d35dd0.jpg",
     "static/media/antalya-3.jpg": "/BilimDent/static/media/antalya-3.845b1aa5deb07a006857.jpg",
     "static/media/antalya-2.jpg": "/BilimDent/static/media/antalya-2.92f67812a5b79ccb670a.jpg",
-    "static/media/teeth-left.jpg": "/BilimDent/static/media/teeth-left.23efce0b5afb204fbc19.jpg",
     "static/media/uni-logo.png": "/BilimDent/static/media/uni-logo.8018980f5509221f17f6.png",
-    "static/media/teeth-right.jpg": "/BilimDent/static/media/teeth-right.648bbd0b71094ae512ac.jpg",
     "static/media/google-big.svg": "/BilimDent/static/media/google-big.db3ab1bcd612829a66a9d254ab327036.svg",
     "static/media/whatsapp.svg": "/BilimDent/static/media/whatsapp.a90b580eec586eaaf50ab1f79406d80d.svg",
     "index.html": "/BilimDent/index.html",
@@ -65,12 +63,12 @@
     "static/media/plus.svg": "/BilimDent/static/media/plus.71a0cd750b90dc706c1b.svg",
     "static/media/no.svg": "/BilimDent/static/media/no.1ca84e1059f5d53300717c900d6575f2.svg",
     "static/media/clock.svg": "/BilimDent/static/media/clock.95909b0b5ed2bf8b7de6c89a88afb222.svg",
-    "main.3cbe4b48.css.map": "/BilimDent/static/css/main.3cbe4b48.css.map",
-    "main.533279b8.js.map": "/BilimDent/static/js/main.533279b8.js.map",
+    "main.7d87d593.css.map": "/BilimDent/static/css/main.7d87d593.css.map",
+    "main.e1d17908.js.map": "/BilimDent/static/js/main.e1d17908.js.map",
     "787.4698678d.chunk.js.map": "/BilimDent/static/js/787.4698678d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cbe4b48.css",
-    "static/js/main.533279b8.js"
+    "static/css/main.7d87d593.css",
+    "static/js/main.e1d17908.js"
   ]
 }
