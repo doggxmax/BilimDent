@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BilimDent/static/css/main.e9d2af6b.css",
-    "main.js": "/BilimDent/static/js/main.ae654926.js",
+    "main.css": "/BilimDent/static/css/main.8acda33b.css",
+    "main.js": "/BilimDent/static/js/main.23b0f72b.js",
     "static/js/787.4698678d.chunk.js": "/BilimDent/static/js/787.4698678d.chunk.js",
     "static/media/clinic-1.jpg": "/BilimDent/static/media/clinic-1.c801bad5ee14dfb27bd5.jpg",
     "static/media/clinic-7.jpg": "/BilimDent/static/media/clinic-7.c23babb8b32c3a6169f6.jpg",
@@ -63,12 +63,12 @@
     "static/media/plus.svg": "/BilimDent/static/media/plus.71a0cd750b90dc706c1b.svg",
     "static/media/no.svg": "/BilimDent/static/media/no.1ca84e1059f5d53300717c900d6575f2.svg",
     "static/media/clock.svg": "/BilimDent/static/media/clock.95909b0b5ed2bf8b7de6c89a88afb222.svg",
-    "main.e9d2af6b.css.map": "/BilimDent/static/css/main.e9d2af6b.css.map",
-    "main.ae654926.js.map": "/BilimDent/static/js/main.ae654926.js.map",
+    "main.8acda33b.css.map": "/BilimDent/static/css/main.8acda33b.css.map",
+    "main.23b0f72b.js.map": "/BilimDent/static/js/main.23b0f72b.js.map",
     "787.4698678d.chunk.js.map": "/BilimDent/static/js/787.4698678d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9d2af6b.css",
-    "static/js/main.ae654926.js"
+    "static/css/main.8acda33b.css",
+    "static/js/main.23b0f72b.js"
   ]
 }
