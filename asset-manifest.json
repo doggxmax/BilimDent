@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BilimDent/static/css/main.d1fcc26c.css",
-    "main.js": "/BilimDent/static/js/main.e65c5fbc.js",
+    "main.css": "/BilimDent/static/css/main.8e7d2351.css",
+    "main.js": "/BilimDent/static/js/main.d7b6923c.js",
     "static/js/787.4698678d.chunk.js": "/BilimDent/static/js/787.4698678d.chunk.js",
     "static/media/kenny-eliason-2RRq1BHPq4E-unsplash.jpg": "/BilimDent/static/media/kenny-eliason-2RRq1BHPq4E-unsplash.0fcc69b3f69dc183e8a6.jpg",
     "static/media/clinic-1.jpg": "/BilimDent/static/media/clinic-1.c801bad5ee14dfb27bd5.jpg",
@@ -48,15 +48,15 @@
     "static/media/tooth-treatments.jpg": "/BilimDent/static/media/tooth-treatments.0f96fc92eaeb8e04663d.jpg",
     "static/media/uni-logo.png": "/BilimDent/static/media/uni-logo.8018980f5509221f17f6.png",
     "static/media/google-big.svg": "/BilimDent/static/media/google-big.db3ab1bcd612829a66a9d254ab327036.svg",
-    "static/media/whatsapp.svg": "/BilimDent/static/media/whatsapp.7821314dfb2d6401af375657aa8d31e9.svg",
+    "static/media/whatsapp.svg": "/BilimDent/static/media/whatsapp.a90b580eec586eaaf50ab1f79406d80d.svg",
     "index.html": "/BilimDent/index.html",
     "static/media/google.svg": "/BilimDent/static/media/google.9a152e4f8fb33bc04d452660fa06df8c.svg",
-    "static/media/twitter.svg": "/BilimDent/static/media/twitter.0147375a7421c471847a799bed5f3fa4.svg",
+    "static/media/twitter.svg": "/BilimDent/static/media/twitter.e25362c364ace9871e1028fb0b1c6f8e.svg",
     "static/media/checkbox.svg": "/BilimDent/static/media/checkbox.68b44640966a737a5edc59b442a824c7.svg",
     "static/media/star.svg": "/BilimDent/static/media/star.cc9d4f2afcf3d91ec1666895b8af15a8.svg",
-    "static/media/facebook.svg": "/BilimDent/static/media/facebook.d90e709d8046fe295bed949aac651613.svg",
+    "static/media/facebook.svg": "/BilimDent/static/media/facebook.cec19f6cfa2337bf92ca4546b49f7e17.svg",
     "static/media/map.svg": "/BilimDent/static/media/map.86e53ad233c34f1f1e9c8178ed215a8b.svg",
-    "static/media/instagram.svg": "/BilimDent/static/media/instagram.651635d7b5e6086544677ad6aa61cbca.svg",
+    "static/media/instagram.svg": "/BilimDent/static/media/instagram.f86627255233ed97460dcba459c781bf.svg",
     "static/media/email.svg": "/BilimDent/static/media/email.9e356d556810dd59b53f0ae70c1dd65e.svg",
     "static/media/check-1.svg": "/BilimDent/static/media/check-1.f451d0e880ac5634466441ed037b22ef.svg",
     "static/media/check-2.svg": "/BilimDent/static/media/check-2.c54cc64dead48ae37afb36c018705aa2.svg",
@@ -64,12 +64,12 @@
     "static/media/plus.svg": "/BilimDent/static/media/plus.71a0cd750b90dc706c1b.svg",
     "static/media/no.svg": "/BilimDent/static/media/no.1ca84e1059f5d53300717c900d6575f2.svg",
     "static/media/clock.svg": "/BilimDent/static/media/clock.95909b0b5ed2bf8b7de6c89a88afb222.svg",
-    "main.d1fcc26c.css.map": "/BilimDent/static/css/main.d1fcc26c.css.map",
-    "main.e65c5fbc.js.map": "/BilimDent/static/js/main.e65c5fbc.js.map",
+    "main.8e7d2351.css.map": "/BilimDent/static/css/main.8e7d2351.css.map",
+    "main.d7b6923c.js.map": "/BilimDent/static/js/main.d7b6923c.js.map",
     "787.4698678d.chunk.js.map": "/BilimDent/static/js/787.4698678d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1fcc26c.css",
-    "static/js/main.e65c5fbc.js"
+    "static/css/main.8e7d2351.css",
+    "static/js/main.d7b6923c.js"
   ]
 }
