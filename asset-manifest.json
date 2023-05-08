@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/BilimDent/static/css/main.83ebe8b4.css",
-    "main.js": "/BilimDent/static/js/main.5974a175.js",
+    "main.css": "/BilimDent/static/css/main.49244622.css",
+    "main.js": "/BilimDent/static/js/main.0504a230.js",
     "static/js/787.4698678d.chunk.js": "/BilimDent/static/js/787.4698678d.chunk.js",
-    "static/media/kenny-eliason-2RRq1BHPq4E-unsplash.jpg": "/BilimDent/static/media/kenny-eliason-2RRq1BHPq4E-unsplash.0fcc69b3f69dc183e8a6.jpg",
     "static/media/clinic-1.jpg": "/BilimDent/static/media/clinic-1.c801bad5ee14dfb27bd5.jpg",
     "static/media/clinic-7.jpg": "/BilimDent/static/media/clinic-7.c23babb8b32c3a6169f6.jpg",
     "static/media/clinic-9.jpg": "/BilimDent/static/media/clinic-9.a5cc28fb7da712126d18.jpg",
@@ -23,6 +22,7 @@
     "static/media/home-section-5.jpg": "/BilimDent/static/media/home-section-5.b4fe0883e7a3b7ca5792.jpg",
     "static/media/firstExamination.jpg": "/BilimDent/static/media/firstExamination.31b21d7723f51af13456.jpg",
     "static/media/digital-measurement-and-scanning.jpg": "/BilimDent/static/media/digital-measurement-and-scanning.6a39b3e389a4c646ab9c.jpg",
+    "static/media/kenny-eliason-2RRq1BHPq4E-unsplash.jpg": "/BilimDent/static/media/kenny-eliason-2RRq1BHPq4E-unsplash.78e80d6f184aa0aeb7fb.jpg",
     "static/media/markantalya.jpg": "/BilimDent/static/media/markantalya.3231c7e8efe5298d1027.jpg",
     "static/media/gallery-4.jpg": "/BilimDent/static/media/gallery-4.1c57ba0b61137da3f58b.jpg",
     "static/media/clinic-3.jpg": "/BilimDent/static/media/clinic-3.36587ed94acff8adfcc5.jpg",
@@ -61,12 +61,12 @@
     "static/media/plus.svg": "/BilimDent/static/media/plus.71a0cd750b90dc706c1b.svg",
     "static/media/no.svg": "/BilimDent/static/media/no.1ca84e1059f5d53300717c900d6575f2.svg",
     "static/media/clock.svg": "/BilimDent/static/media/clock.95909b0b5ed2bf8b7de6c89a88afb222.svg",
-    "main.83ebe8b4.css.map": "/BilimDent/static/css/main.83ebe8b4.css.map",
-    "main.5974a175.js.map": "/BilimDent/static/js/main.5974a175.js.map",
+    "main.49244622.css.map": "/BilimDent/static/css/main.49244622.css.map",
+    "main.0504a230.js.map": "/BilimDent/static/js/main.0504a230.js.map",
     "787.4698678d.chunk.js.map": "/BilimDent/static/js/787.4698678d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83ebe8b4.css",
-    "static/js/main.5974a175.js"
+    "static/css/main.49244622.css",
+    "static/js/main.0504a230.js"
   ]
 }
